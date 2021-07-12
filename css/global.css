@@ -1,0 +1,23 @@
+@import url('reset.css');
+@import url('variable.css');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--background-purple);
+    color: white;
+}
+input {
+    border: none;
+    outline: none;
+    appearance: none;
+}
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position-relative {
+    position: relative;
+}
